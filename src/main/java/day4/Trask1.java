@@ -30,24 +30,25 @@ public class Trask1 {
             }
         }
         System.out.println("Количестве чисел больше 8 = " + count8);
+
         for (int i = 0; i <array.length; i++) {
             if(array[i]==1){
                 count1++;
             }
         }
         System.out.println("Количестве чисел равных 1 = "+count1);
+
+
         for (int i = 0; i <array.length; i++) {
             if(array[i]%2==0){
                 count0++;
-            }
-        }
-        System.out.println("Количестве четных чисел = "+count0);
-        for (int i = 0; i <array.length; i++) {
-            if (array[i]%2 != 0){
+            }else{
                 countNot0++;
             }
         }
+        System.out.println("Количестве четных чисел = "+count0);
         System.out.println("Количестве нечетных чисел = " + countNot0);
+
         for (int i = 0; i <array.length; i++) {
             summa = summa + array[i];
         }

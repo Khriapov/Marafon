@@ -11,13 +11,11 @@ public class Trask3 {
             double delimoe = scanner.nextDouble();
             System.out.println("Введите делитель: ");
             double delitel = scanner.nextDouble();
-            double resultat = 0;
             if (delitel==0){
                 System.out.println("деление №"+(i+1)+" не выполнено, деление на 0 невозможно");
                 continue;
             }
-            resultat = delimoe/delitel;
-            System.out.println("Результат деления №"+(i+1)+" = " + resultat);
+            System.out.println("Результат деления №"+(i+1)+" = " + delimoe/delitel);
         }
     }
 }

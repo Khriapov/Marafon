@@ -15,7 +15,7 @@ public class Trask3 {
         for (int i = 0; i <array.length; i++) {
             int summ = 0;
             for (int j = 0; j <array[i].length; j++) {
-                summ = summ + array[i][j];
+                summ += array[i][j];
             }
             if (maxSumm<=summ){
                 maxSumm=summ;
@@ -23,6 +23,5 @@ public class Trask3 {
             }
         }
         System.out.println("Индекс строки, сумма чисел в которой максимальна = "+index);
-
     }
 }

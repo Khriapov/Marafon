@@ -13,7 +13,7 @@ public class Trask1 {
             System.out.println("Среднеэтажный дом");
         }else if (floor>=9){
             System.out.println("Многоэтажный дом");
-        } else if (floor <=0){
+        } else{
             System.out.println("Ошибка ввода");
         }
     }

@@ -5,7 +5,7 @@ public class Track4 {
         int yeras = 1980;
         while (yeras <= 2020){
             System.out.println("Олимпиада " + yeras + " года");
-            yeras = yeras + 4;
+            yeras+=4;
         }
     }
 }

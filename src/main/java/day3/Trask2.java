@@ -12,13 +12,11 @@ public class Trask2 {
             double delimoe = scanner.nextDouble();
             System.out.println("Введите делитель: ");
             double delitel = scanner.nextDouble();
-            double resultat = 0;
             if (delitel==0){
                 System.out.println("Вы ввели в качестве делителя 0, программа завершает свою работу");
                 break;
             }
-            resultat = delimoe/delitel;
-            System.out.println("Результат деления: " + resultat);
+            System.out.println("Результат деления: " + delimoe/delitel);
         }
     }
 }
